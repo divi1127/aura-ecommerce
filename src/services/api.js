@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let apiBaseURL = import.meta.env.VITE_API_URL || 'http://localhost:5005/api';
+let apiBaseURL = import.meta.env.VITE_API_URL || 'https://aura-ecommercebackend-1.onrender.com/api';
 
 // Dynamically guarantee '/api' suffix is present
 if (apiBaseURL && !apiBaseURL.endsWith('/api') && !apiBaseURL.endsWith('/api/')) {
